@@ -39,6 +39,9 @@ def predict_next_pass(tle_lines):
 
     # Start the pass 2 minutes early as the prediction is done for 10deg altitude   
     next_pass_utc = times[0].utc_datetime()- timedelta(minutes=2)  
+
+    # test
+    # next_pass_utc = datetime.utcnow().replace(tzinfo=pytz.utc) 
     return next_pass_utc
 
 def utc_to_local(utc_dt, local_tz):
