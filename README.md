@@ -35,6 +35,20 @@ python3 src/main.py -s CUAVA-2 &
 Note that this can be repurposed to do WS-1 auto pass
 
 ```
+## Screen
+```
+Screen is recommanded to run the threads without interuption
+
+Install Screen: Sudo apt install screen
+Start new Screen session: screen -S $name
+Detach Screen without ending it: Ctrl-A, D
+Resume Screen screen -rx $name
+
+Exit Screen: Ctrl-D or exit
+
+```
+
+
 
 ## Functionality
 - **Fetch TLE Data**: The script retrieves the latest TLE data for the CUAVA-2 satellite.
