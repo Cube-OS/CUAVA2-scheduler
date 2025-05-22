@@ -33,9 +33,13 @@ def kill_process_and_children(pid):
         parent.kill()
     except psutil.NoSuchProcess:
         pass
+<<<<<<< HEAD
 
 def main():
+=======
+>>>>>>> 6d443afb5263ad63fcf1622ac36716a2369ebd9b
 
+def main():
     # # Determine the script's directory
     # script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -126,7 +130,6 @@ def main():
     # time_to_wait = (next_pass_utc - pytz.utc.localize(datetime.datetime.utcnow())).total_seconds()
     # time.sleep(max(0, time_to_wait))
     
-    time.sleep(60)
     os.kill(pid_1, 15)  # Terminate isis-ground
     os.kill(pid_3, 15)  # Terminate file-client
     
