@@ -1,0 +1,9 @@
+eps-ground-watchdog{   "KickWatchdog": {}}
+1/11{   "KickWatchdog": {}}
+2025-03-08 23:34:11
+User pressed a button, stopping the loop.
+
+eps-ground-watchdog{   "GetTimeRemaining": {}}
+1/11{   "GetTimeRemaining": {}}
+2{   "GetTimeRemaining": {}}
+3{   "GetTimeRemaining": {}}

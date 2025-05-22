@@ -1,0 +1,20 @@
+13:00:36 [0m[34m[INFO] [0mStarting file transfer client
+13:00:36 [0m[34m[INFO] [0mDownloading remote to local: ./download/
+13:00:36 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { ReqTransmit { channel_id: 100479, path: None } }
+13:00:39 [0m[34m[INFO] [0mSuccessTransmit: 100479 ls_output.json 2ccf2c2bce423640105e2de8a8fe0b02 9 Some(33188) false
+13:00:40 [0m[34m[INFO] [0mSuccessTransmit: 100479 dandelions.txt 90fc6a0bfb56723daeaaec7f1a3d1ce3 19 Some(33188) true
+13:00:40 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { SuccessTransmit { channel_id: 100479, file_name: "ls_output.json", hash: "2ccf2c2bce423640105e2de8a8fe0b02", num_chunks: 9, mode: Some(33188), last: false } }
+13:00:40 [0m[34m[INFO] [0m<- { 100479, true, 2ccf2c2bce423640105e2de8a8fe0b02, 9, 33188 }
+13:00:40 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { ACK { channel_id: 100479, hash: "2ccf2c2bce423640105e2de8a8fe0b02" } }
+13:00:40 [0m[34m[INFO] [0mStart receiving file: ls_output.json
+13:01:00 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { SuccessReceive { channel_id: 100479, hash: "2ccf2c2bce423640105e2de8a8fe0b02" } }
+13:01:00 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { SuccessTransmit { channel_id: 100479, file_name: "dandelions.txt", hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", num_chunks: 19, mode: Some(33188), last: true } }
+13:01:00 [0m[34m[INFO] [0m<- { 100479, true, 90fc6a0bfb56723daeaaec7f1a3d1ce3, 19, 33188 }
+13:01:00 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { NAK { channel_id: 100479, hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", missing_chunks: Some([0, 19]) } }
+13:01:00 [0m[34m[INFO] [0mStart receiving file: dandelions.txt
+13:01:21 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { NAK { channel_id: 100479, hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", missing_chunks: Some([0, 19]) } }
+13:01:26 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 100479, hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", chunk_num: 0 } }
+13:01:27 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 100479, hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", chunk_num: 1 } }
+13:01:49 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 100479, hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", chunk_num: 7 } }
+13:01:52 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 100479, hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", chunk_num: 8 } }
+13:01:54 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 100479, hash: "90fc6a0bfb56723daeaaec7f1a3d1ce3", chunk_num: 8 } }

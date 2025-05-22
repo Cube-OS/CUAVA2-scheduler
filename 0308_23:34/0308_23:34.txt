@@ -1,0 +1,2 @@
+2025-03-08 23:34:03,318 - Started isis-ground with PID: 1471324
+2025-03-08 23:34:03,319 - Started gs-autorun with PID: 1471325

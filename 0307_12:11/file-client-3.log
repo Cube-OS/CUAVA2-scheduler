@@ -1,0 +1,29 @@
+13:23:07 [0m[34m[INFO] [0mStarting file transfer client
+13:23:07 [0m[34m[INFO] [0mDownloading remote to local: ./download/
+13:23:07 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { ReqTransmit { channel_id: 303483, path: None } }
+13:23:11 [0m[34m[INFO] [0mSuccessTransmit: 303483 ls_output.json 2ccf2c2bce423640105e2de8a8fe0b02 9 Some(33188) false
+13:23:11 [0m[34m[INFO] [0mSuccessTransmit: 303483 dandelions.txt 90fc6a0bfb56723daeaaec7f1a3d1ce3 19 Some(33188) true
+13:23:11 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { SuccessTransmit { channel_id: 303483, file_name: "ls_output.json", hash: "2ccf2c2bce423640105e2de8a8fe0b02", num_chunks: 9, mode: Some(33188), last: false } }
+13:23:11 [0m[34m[INFO] [0m<- { 303483, true, 2ccf2c2bce423640105e2de8a8fe0b02, 9, 33188 }
+13:23:11 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { NAK { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", missing_chunks: Some([0, 9]) } }
+13:23:11 [0m[34m[INFO] [0mStart receiving file: ls_output.json
+13:23:16 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 0 } }
+13:23:18 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 1 } }
+13:23:20 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 1 } }
+13:23:22 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 2 } }
+13:23:23 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 2 } }
+13:23:25 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 3 } }
+13:23:27 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 3 } }
+13:23:29 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 4 } }
+13:23:30 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 4 } }
+13:23:32 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 5 } }
+13:23:34 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 5 } }
+13:23:36 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 6 } }
+13:23:38 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 6 } }
+13:23:39 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 7 } }
+13:23:41 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 7 } }
+13:23:43 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 8 } }
+13:23:45 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02", chunk_num: 8 } }
+13:24:06 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { ACK { channel_id: 303483, hash: "2ccf2c2bce423640105e2de8a8fe0b02" } }
+13:24:06 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { Failure { channel_id: 303483, error: "Storage failed to create/open file for writing ./download/ls_output.json: No such file or directory (os error 2)" } }
+13:24:06 [0m[33m[WARN] [0mFailed to finalize file 2ccf2c2bce423640105e2de8a8fe0b02 as ./download/ls_output.json: Storage failed to create/open file for writing ./download/ls_output.json: No such file or directory (os error 2)

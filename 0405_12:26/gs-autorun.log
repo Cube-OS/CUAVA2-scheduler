@@ -1,0 +1,402 @@
+eps-ground-watchdog{   "KickWatchdog": {}}
+1/11{   "KickWatchdog": {}}
+2025-04-05 12:26:39
+eps-ground-watchdog: "Success"
+
+eps-ground-watchdog{   "GetTimeRemaining": {}}
+1/11{   "GetTimeRemaining": {}}
+2025-04-05 12:26:41
+eps-ground-watchdog: "172798"
+
+isis-eps-terminal{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+1/11{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+2025-04-05 12:26:43
+isis-eps-terminal: Success
+
+isis-eps-terminal{   "PiuHk": {     "mode": "PIUEngHK"   }}
+1/11{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2{   "PiuHk": {     "mode": "PIUEngHK"   }}
+3{   "PiuHk": {     "mode": "PIUEngHK"   }}
+4{   "PiuHk": {     "mode": "PIUEngHK"   }}
+5{   "PiuHk": {     "mode": "PIUEngHK"   }}
+6{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-04-05 12:27:26
+isis-eps-terminal: {
+  "volt_brdsup": 3306,
+  "temp": 1120,
+  "vip_dist_input": {
+    "volt": 15709,
+    "curr": 196,
+    "pwr": 3260
+  },
+  "vip_batt_input": {
+    "volt": 15718,
+    "curr": -193,
+    "pwr": -3320
+  },
+  "stat_ch_on": 4395,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1161,
+  "batt_temp3": 1006,
+  "volt_vd0": 15709,
+  "volt_vd1": 4996,
+  "volt_vd2": 3306,
+  "vip_cnt_ch00": {
+    "volt": 15707,
+    "curr": 53,
+    "pwr": 820
+  },
+  "vip_cnt_ch01": {
+    "volt": 4995,
+    "curr": 0,
+    "pwr": 160
+  },
+  "vip_cnt_ch02": {
+    "volt": -24,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": 4985,
+    "curr": 219,
+    "pwr": 1240
+  },
+  "vip_cnt_ch04": {
+    "volt": 8,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3338,
+    "curr": 48,
+    "pwr": 150
+  },
+  "vip_cnt_ch06": {
+    "volt": -183,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -192,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3333,
+    "curr": 174,
+    "pwr": 510
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -175,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -174,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -173,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": 5439,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -11,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -30,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -180,
+    "curr": -1,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 377,
+    "curr": 0,
+    "pwr": 0
+  }
+}
+
+isis-eps-terminal{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+1/11{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+2025-04-05 12:27:29
+isis-eps-terminal: Success
+
+isis-eps-terminal{   "PiuHk": {     "mode": "PIUEngHK"   }}
+1/11{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2{   "PiuHk": {     "mode": "PIUEngHK"   }}
+3{   "PiuHk": {     "mode": "PIUEngHK"   }}
+4{   "PiuHk": {     "mode": "PIUEngHK"   }}
+5{   "PiuHk": {     "mode": "PIUEngHK"   }}
+6{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-04-05 12:28:12
+isis-eps-terminal: {
+  "volt_brdsup": 3308,
+  "temp": 1240,
+  "vip_dist_input": {
+    "volt": 15697,
+    "curr": 209,
+    "pwr": 3290
+  },
+  "vip_batt_input": {
+    "volt": 15708,
+    "curr": -205,
+    "pwr": -3320
+  },
+  "stat_ch_on": 4395,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1137,
+  "batt_temp3": 1015,
+  "volt_vd0": 15697,
+  "volt_vd1": 4996,
+  "volt_vd2": 3308,
+  "vip_cnt_ch00": {
+    "volt": 15693,
+    "curr": 54,
+    "pwr": 810
+  },
+  "vip_cnt_ch01": {
+    "volt": 4993,
+    "curr": 1,
+    "pwr": 110
+  },
+  "vip_cnt_ch02": {
+    "volt": -24,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": 4984,
+    "curr": 259,
+    "pwr": 1290
+  },
+  "vip_cnt_ch04": {
+    "volt": 10,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3341,
+    "curr": 48,
+    "pwr": 150
+  },
+  "vip_cnt_ch06": {
+    "volt": -182,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -193,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3333,
+    "curr": 155,
+    "pwr": 510
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -175,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -173,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -172,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": 5439,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -12,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -30,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -180,
+    "curr": -1,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 379,
+    "curr": 0,
+    "pwr": 0
+  }
+}
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-04-05 12:28:14
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": false,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": true,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 3039,
+    "estimated_pitch_angle": -29,
+    "estimated_yaw_angle": -29,
+    "estimated_q1": -2621,
+    "estimated_q2": 17,
+    "estimated_q3": 17,
+    "estimated_x_angular_rate": 1,
+    "estimated_y_angular_rate": 5,
+    "estimated_z_angular_rate": -1,
+    "x_position": -21496,
+    "y_position": 131,
+    "z_position": -17160,
+    "x_velocity": -18686,
+    "y_velocity": 5136,
+    "z_velocity": 23475,
+    "latitude": -3860,
+    "longitude": 15845,
+    "altitude": 29767,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+

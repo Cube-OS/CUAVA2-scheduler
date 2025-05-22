@@ -1,0 +1,3 @@
+UART_Init(): - ESP_OK
+[0;32mI (4365) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 1| Intr:0 [0m
+[0;32mI (4365) gpio: GPIO[15]| Inpu

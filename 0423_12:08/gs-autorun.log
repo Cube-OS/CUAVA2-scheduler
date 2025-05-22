@@ -1,0 +1,195 @@
+eps-ground-watchdog{   "KickWatchdog": {}}
+1/11{   "KickWatchdog": {}}
+2{   "KickWatchdog": {}}
+3{   "KickWatchdog": {}}
+4{   "KickWatchdog": {}}
+5{   "KickWatchdog": {}}
+6{   "KickWatchdog": {}}
+7{   "KickWatchdog": {}}
+8{   "KickWatchdog": {}}
+9{   "KickWatchdog": {}}
+10{   "KickWatchdog": {}}
+11{   "KickWatchdog": {}}
+12{   "KickWatchdog": {}}
+13{   "KickWatchdog": {}}
+14{   "KickWatchdog": {}}
+15{   "KickWatchdog": {}}
+16{   "KickWatchdog": {}}
+17{   "KickWatchdog": {}}
+18{   "KickWatchdog": {}}
+19{   "KickWatchdog": {}}
+20{   "KickWatchdog": {}}
+21{   "KickWatchdog": {}}
+22{   "KickWatchdog": {}}
+23{   "KickWatchdog": {}}
+24{   "KickWatchdog": {}}
+25{   "KickWatchdog": {}}
+2025-04-23 12:11:38
+eps-ground-watchdog: "Success"
+
+eps-ground-watchdog{   "GetTimeRemaining": {}}
+1/11{   "GetTimeRemaining": {}}
+2{   "GetTimeRemaining": {}}
+2025-04-23 12:11:39
+eps-ground-watchdog: "172799"
+
+isis-eps-terminal{   "SetGroupOutputs": {     "typ_group": "BusGroupOff",     "channels": [       12,       14     ]   }}
+1/11{   "SetGroupOutputs": {     "typ_group": "BusGroupOff",     "channels": [       12,       14     ]   }}
+2025-04-23 12:11:41
+isis-eps-terminal: Success
+
+cubeadcs-terminal{   "SetCommandedAttitudeAngles": {     "roll": 8500,     "pitch": 0,     "yaw": 0   }}
+1/11{   "SetCommandedAttitudeAngles": {     "roll": 8500,     "pitch": 0,     "yaw": 0   }}
+2025-04-23 12:11:42
+cubeadcs-terminal: Success
+
+isis-eps-terminal{   "PiuHk": {     "mode": "PIUEngHK"   }}
+1/11{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2{   "PiuHk": {     "mode": "PIUEngHK"   }}
+3{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-04-23 12:11:46
+isis-eps-terminal: {
+  "volt_brdsup": 3304,
+  "temp": 1240,
+  "vip_dist_input": {
+    "volt": 15499,
+    "curr": 202,
+    "pwr": 4750
+  },
+  "vip_batt_input": {
+    "volt": 15507,
+    "curr": -219,
+    "pwr": -4730
+  },
+  "stat_ch_on": 299,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1325,
+  "batt_temp3": 1401,
+  "volt_vd0": 15499,
+  "volt_vd1": 4994,
+  "volt_vd2": 3304,
+  "vip_cnt_ch00": {
+    "volt": 15490,
+    "curr": 59,
+    "pwr": 920
+  },
+  "vip_cnt_ch01": {
+    "volt": 4993,
+    "curr": 1,
+    "pwr": 1270
+  },
+  "vip_cnt_ch02": {
+    "volt": -25,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": 4984,
+    "curr": 261,
+    "pwr": 1290
+  },
+  "vip_cnt_ch04": {
+    "volt": 277,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3339,
+    "curr": 44,
+    "pwr": 150
+  },
+  "vip_cnt_ch06": {
+    "volt": -181,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -191,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3333,
+    "curr": 187,
+    "pwr": 580
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -175,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -173,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -173,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": 690,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -16,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -30,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -181,
+    "curr": 0,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 378,
+    "curr": 0,
+    "pwr": 0
+  }
+}
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-04-23 12:11:50
+cubeadcs-terminal: invalid value: integer `6652`, expected variant index 0 <= i < 130
+

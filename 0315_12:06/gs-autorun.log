@@ -1,0 +1,248 @@
+eps-ground-watchdog{   "KickWatchdog": {}}
+1/11{   "KickWatchdog": {}}
+2025-03-15 12:06:06
+eps-ground-watchdog: "Success"
+
+eps-ground-watchdog{   "GetTimeRemaining": {}}
+1/11{   "GetTimeRemaining": {}}
+2{   "GetTimeRemaining": {}}
+2025-03-15 12:06:08
+eps-ground-watchdog: "172799"
+
+isis-eps-terminal{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+1/11{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+2{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+2025-03-15 12:06:19
+isis-eps-terminal: Success
+
+isis-eps-terminal{   "PiuHk": {     "mode": "PIUEngHK"   }}
+1/11{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-03-15 12:06:32
+isis-eps-terminal: {
+  "volt_brdsup": 3304,
+  "temp": 1920,
+  "vip_dist_input": {
+    "volt": 15708,
+    "curr": 284,
+    "pwr": 3920
+  },
+  "vip_batt_input": {
+    "volt": 15724,
+    "curr": -289,
+    "pwr": -3990
+  },
+  "stat_ch_on": 4411,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1917,
+  "batt_temp3": 1743,
+  "volt_vd0": 15708,
+  "volt_vd1": 4996,
+  "volt_vd2": 3304,
+  "vip_cnt_ch00": {
+    "volt": 15706,
+    "curr": 51,
+    "pwr": 790
+  },
+  "vip_cnt_ch01": {
+    "volt": 4988,
+    "curr": 115,
+    "pwr": 50
+  },
+  "vip_cnt_ch02": {
+    "volt": -23,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": 4983,
+    "curr": 222,
+    "pwr": 1100
+  },
+  "vip_cnt_ch04": {
+    "volt": 4993,
+    "curr": 93,
+    "pwr": 460
+  },
+  "vip_cnt_ch05": {
+    "volt": 3341,
+    "curr": 51,
+    "pwr": 150
+  },
+  "vip_cnt_ch06": {
+    "volt": -178,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -188,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3334,
+    "curr": 193,
+    "pwr": 590
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -170,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -167,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -167,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": 5423,
+    "curr": 71,
+    "pwr": 300
+  },
+  "vip_cnt_ch13": {
+    "volt": -8,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -29,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -177,
+    "curr": 0,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 379,
+    "curr": -1,
+    "pwr": 0
+  }
+}
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-03-15 12:06:42
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": true,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": false,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 2736,
+    "estimated_pitch_angle": -28,
+    "estimated_yaw_angle": -40,
+    "estimated_q1": -2365,
+    "estimated_q2": 15,
+    "estimated_q3": 28,
+    "estimated_x_angular_rate": 0,
+    "estimated_y_angular_rate": 1,
+    "estimated_z_angular_rate": 4,
+    "x_position": -18475,
+    "y_position": 6621,
+    "z_position": -19302,
+    "x_velocity": -17878,
+    "y_velocity": 12254,
+    "z_velocity": 21343,
+    "latitude": -4452,
+    "longitude": 16524,
+    "altitude": 28259,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+

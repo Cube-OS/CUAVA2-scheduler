@@ -1,0 +1,636 @@
+eps-ground-watchdog{   "KickWatchdog": {}}
+1/11{   "KickWatchdog": {}}
+2025-05-09 12:24:59
+eps-ground-watchdog: "Success"
+
+eps-ground-watchdog{   "GetTimeRemaining": {}}
+1/11{   "GetTimeRemaining": {}}
+2{   "GetTimeRemaining": {}}
+2025-05-09 12:25:00
+eps-ground-watchdog: "172799"
+
+isis-eps-terminal{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+1/11{   "SetSingleOutput": {     "typ_channel": "Off",     "eps_ch_idx": 14   }}
+2025-05-09 12:25:02
+isis-eps-terminal: Success
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   },   "delay": 1000,}
+Delay: 1000 ms
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-05-09 12:25:06
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": false,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": true,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 52,
+    "estimated_pitch_angle": -3,
+    "estimated_yaw_angle": 4,
+    "estimated_q1": 45,
+    "estimated_q2": -2,
+    "estimated_q3": 3,
+    "estimated_x_angular_rate": -1,
+    "estimated_y_angular_rate": -1,
+    "estimated_z_angular_rate": 2,
+    "x_position": -15269,
+    "y_position": -10832,
+    "z_position": -20154,
+    "x_velocity": -21185,
+    "y_velocity": -7964,
+    "z_velocity": 20336,
+    "latitude": -4711,
+    "longitude": 16141,
+    "altitude": 29015,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+
+cubeadcs-terminal{   "SetCommandedAttitudeAngles": {     "roll": 0,     "pitch": 0,     "yaw": 0   }}
+1/11{   "SetCommandedAttitudeAngles": {     "roll": 0,     "pitch": 0,     "yaw": 0   }}
+2025-05-09 12:25:07
+cubeadcs-terminal: Success
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   },   "delay": 5000,}
+Delay: 5000 ms
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-05-09 12:25:15
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": false,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": true,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 41,
+    "estimated_pitch_angle": -11,
+    "estimated_yaw_angle": 9,
+    "estimated_q1": 36,
+    "estimated_q2": -9,
+    "estimated_q3": 7,
+    "estimated_x_angular_rate": 0,
+    "estimated_y_angular_rate": -1,
+    "estimated_z_angular_rate": 0,
+    "x_position": -15459,
+    "y_position": -10903,
+    "z_position": -19970,
+    "x_velocity": -21016,
+    "y_velocity": -7844,
+    "z_velocity": 20557,
+    "latitude": -4655,
+    "longitude": 16122,
+    "altitude": 29059,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-05-09 12:25:17
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": false,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": true,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 42,
+    "estimated_pitch_angle": -10,
+    "estimated_yaw_angle": 7,
+    "estimated_q1": 36,
+    "estimated_q2": -8,
+    "estimated_q3": 5,
+    "estimated_x_angular_rate": 0,
+    "estimated_y_angular_rate": 2,
+    "estimated_z_angular_rate": -2,
+    "x_position": -15522,
+    "y_position": -10927,
+    "z_position": -19908,
+    "x_velocity": -20959,
+    "y_velocity": -7804,
+    "z_velocity": 20631,
+    "latitude": -4636,
+    "longitude": 16115,
+    "altitude": 29073,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+
+isis-eps-terminal{   "PiuHk": {     "mode": "PIUEngHK"   }}
+1/11{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-05-09 12:25:20
+isis-eps-terminal: {
+  "volt_brdsup": 3292,
+  "temp": 200,
+  "vip_dist_input": {
+    "volt": 15490,
+    "curr": 434,
+    "pwr": 5910
+  },
+  "vip_batt_input": {
+    "volt": 15507,
+    "curr": -428,
+    "pwr": -5950
+  },
+  "stat_ch_on": 4395,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 597,
+  "batt_temp3": 562,
+  "volt_vd0": 15490,
+  "volt_vd1": 4993,
+  "volt_vd2": 3292,
+  "vip_cnt_ch00": {
+    "volt": 15469,
+    "curr": 222,
+    "pwr": 3220
+  },
+  "vip_cnt_ch01": {
+    "volt": 4982,
+    "curr": 253,
+    "pwr": 450
+  },
+  "vip_cnt_ch02": {
+    "volt": -23,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": 4982,
+    "curr": 217,
+    "pwr": 1130
+  },
+  "vip_cnt_ch04": {
+    "volt": 488,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3337,
+    "curr": 48,
+    "pwr": 150
+  },
+  "vip_cnt_ch06": {
+    "volt": -185,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -197,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3333,
+    "curr": 138,
+    "pwr": 520
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -180,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -178,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -177,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": 5446,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -15,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -29,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -182,
+    "curr": 0,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 378,
+    "curr": 0,
+    "pwr": 0
+  }
+}
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-05-09 12:25:24
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": false,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": true,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 44,
+    "estimated_pitch_angle": -6,
+    "estimated_yaw_angle": 4,
+    "estimated_q1": 38,
+    "estimated_q2": -5,
+    "estimated_q3": 3,
+    "estimated_x_angular_rate": 0,
+    "estimated_y_angular_rate": 2,
+    "estimated_z_angular_rate": 0,
+    "x_position": -15627,
+    "y_position": -10966,
+    "z_position": -19805,
+    "x_velocity": -20864,
+    "y_velocity": -7737,
+    "z_velocity": 20753,
+    "latitude": -4605,
+    "longitude": 16105,
+    "altitude": 29099,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+3{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+4{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+5{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+6{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+7{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+8{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+9{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+10{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+12{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+13{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+14{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+15{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+16{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+17{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+18{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+19{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+20{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+21{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+22{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+23{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+24{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+25{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+26{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+27{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+28{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+29{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+30{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+31{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+32{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+33{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+34{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+35{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+36{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+37{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+38{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+39{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+40{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+41{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-05-09 12:30:47
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": false,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": true,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 37,
+    "estimated_pitch_angle": -10,
+    "estimated_yaw_angle": 64,
+    "estimated_q1": 32,
+    "estimated_q2": -8,
+    "estimated_q3": 55,
+    "estimated_x_angular_rate": 0,
+    "estimated_y_angular_rate": 1,
+    "estimated_z_angular_rate": -5,
+    "x_position": -21249,
+    "y_position": -12722,
+    "z_position": -11962,
+    "x_velocity": -13469,
+    "y_velocity": -2987,
+    "z_velocity": 27140,
+    "latitude": -2578,
+    "longitude": 15555,
+    "altitude": 30671,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+

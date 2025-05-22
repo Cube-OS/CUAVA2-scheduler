@@ -1,0 +1,608 @@
+eps-ground-watchdog{   "KickWatchdog": {}}
+1/11{   "KickWatchdog": {}}
+2{   "KickWatchdog": {}}
+3{   "KickWatchdog": {}}
+4{   "KickWatchdog": {}}
+5{   "KickWatchdog": {}}
+6{   "KickWatchdog": {}}
+7{   "KickWatchdog": {}}
+8{   "KickWatchdog": {}}
+9{   "KickWatchdog": {}}
+10{   "KickWatchdog": {}}
+11{   "KickWatchdog": {}}
+12{   "KickWatchdog": {}}
+13{   "KickWatchdog": {}}
+14{   "KickWatchdog": {}}
+15{   "KickWatchdog": {}}
+16{   "KickWatchdog": {}}
+2025-03-10 12:18:09
+eps-ground-watchdog: "Success"
+
+eps-ground-watchdog{   "GetTimeRemaining": {}}
+1/11{   "GetTimeRemaining": {}}
+2025-03-10 12:18:10
+eps-ground-watchdog: "172798"
+
+cmd-terminal{   "GetTime": {}}
+1/11{   "GetTime": {}}
+2025-03-10 12:18:11
+cmd-terminal: {
+  "time": "1970-01-01 23:59:59 UTC"
+}
+
+isis-eps-terminal{   "SetSingleOutput": {     "typ_channel": "On",     "eps_ch_idx": 8   }}
+1/11{   "SetSingleOutput": {     "typ_channel": "On",     "eps_ch_idx": 8   }}
+2025-03-10 12:18:12
+isis-eps-terminal: Success
+
+cubeadcs-terminal{   "SetADCSRunMode": {     "adcs": "Enabled"   },   "delay": 3000}
+Delay: 3000 ms
+1/11{   "SetADCSRunMode": {     "adcs": "Enabled"   }}
+2025-03-10 12:18:17
+cubeadcs-terminal: Success
+
+cubeadcs-terminal{   "ADCSPowerControl": {     "cubecontrol_signal": "On",     "cubecontrol_motor": "On",     "cubesense1": "On",     "cubesense2": "On",     "cubestar": "Off",     "wheel1": "On",     "wheel2": "On",     "wheel3": "On",     "motor": "Off",     "gps": "Off"   }}
+1/11{   "ADCSPowerControl": {     "cubecontrol_signal": "On",     "cubecontrol_motor": "On",     "cubesense1": "On",     "cubesense2": "On",     "cubestar": "Off",     "wheel1": "On",     "wheel2": "On",     "wheel3": "On",     "motor": "Off",     "gps": "Off"   }}
+2025-03-10 12:18:18
+cubeadcs-terminal: Success
+
+cmd-terminal{   "SetTime": {     "curret_time": 0   }}
+1/11{"SetTime": {"curret_time": 1741609098}}
+2025-03-10 12:18:19
+cmd-terminal: Success
+
+cubeadcs-terminal{   "SetCurrentUnixTime": {     "seconds": 0,     "milliseconds": 0   }}
+1/11{"SetCurrentUnixTime": {"seconds": 1741609099, "milliseconds": 0}}
+2025-03-10 12:18:20
+cubeadcs-terminal: Success
+
+cubeadcs-terminal{   "SaveTimeToFlash": {     "now": true,     "on_update": true,     "periodic": true,     "period": 120   }}
+1/11{   "SaveTimeToFlash": {     "now": true,     "on_update": true,     "periodic": true,     "period": 120   }}
+2025-03-10 12:18:21
+cubeadcs-terminal: Success
+
+cubeadcs-terminal{"SetOrbitParameters": {"inclination": 97.4125,"eccentricity": 0.0003515,"right_ascension": 147.6808,"perigee": 82.9895,"b_star": 0.00070806,"mean_motion": 15.23153442,"mean_anomaly": 277.1742,"epoch": 25069.19182982}}
+1/11{"SetOrbitParameters": {"inclination": 97.4125,"eccentricity": 0.0003515,"right_ascension": 147.6808,"perigee": 82.9895,"b_star": 0.00070806,"mean_motion": 15.23153442,"mean_anomaly": 277.1742,"epoch": 25069.19182982}}
+2025-03-10 12:18:22
+cubeadcs-terminal: Success
+
+cubeadcs-terminal{"SaveOrbitParam": {}}
+1/11{"SaveOrbitParam": {}}
+2025-03-10 12:18:23
+cubeadcs-terminal: Success
+
+cubeadcs-terminal{   "SetAttitudeEstimationMode": {     "estimation": "MEMSgyroEKF"   }}
+1/11{   "SetAttitudeEstimationMode": {     "estimation": "MEMSgyroEKF"   }}
+2025-03-10 12:18:24
+cubeadcs-terminal: Success
+
+cmd-terminal{   "Custom": {     "command": "i2cset",     "arguments": [       "-y",       "0",       "0x57",       "0x0D",       "0x05",       "0x00",       "0x00",       "i"     ]   }}
+1/11{   "Custom": {     "command": "i2cset",     "arguments": [       "-y",       "0",       "0x57",       "0x0D",       "0x05",       "0x00",       "0x00",       "i"     ]   }}
+2{   "Custom": {     "command": "i2cset",     "arguments": [       "-y",       "0",       "0x57",       "0x0D",       "0x05",       "0x00",       "0x00",       "i"     ]   }}
+3{   "Custom": {     "command": "i2cset",     "arguments": [       "-y",       "0",       "0x57",       "0x0D",       "0x05",       "0x00",       "0x00",       "i"     ]   }}
+2025-03-10 12:18:29
+cmd-terminal: ""
+
+cubeadcs-terminal{   "SetCommandedAttitudeAngles": {     "roll": 6500,     "pitch": 0,     "yaw": 0   }}
+1/11{   "SetCommandedAttitudeAngles": {     "roll": 6500,     "pitch": 0,     "yaw": 0   }}
+2025-03-10 12:18:29
+cubeadcs-terminal: Success
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   },   "delay": 5000,}
+Delay: 5000 ms
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-03-10 12:18:37
+cubeadcs-terminal: {
+  "AdcsStateAll": {
+    "attitude_estimation_mode": "MEMSgyroEKF",
+    "control_mode": "XYZWheel",
+    "adcs_run_mode": "Enabled",
+    "asgp4_mode": "Off",
+    "cube_control_signal_enabled": true,
+    "cube_control_motor_enabled": true,
+    "cube_sense1_enabled": true,
+    "cube_sense2_enabled": true,
+    "cube_wheel1_enabled": true,
+    "cube_wheel2_enabled": true,
+    "cube_wheel3_enabled": true,
+    "cube_star_enabled": false,
+    "gps_receiver_enabled": false,
+    "gps_lna_power_enabled": false,
+    "motor_driver_enabled": false,
+    "sun_is_above_local_horizon": false,
+    "cube_sense1_communication_error": false,
+    "cube_sense2_communication_error": false,
+    "cube_control_signal_communications_error": false,
+    "cube_control_motor_communications_error": false,
+    "cube_wheel1_communications_error": false,
+    "cube_wheel2_communications_error": false,
+    "cube_wheel3_communications_error": false,
+    "cube_star_communications_error": false,
+    "magnetometer_range_error": false,
+    "cam1_sram_overcurrent_detected": false,
+    "cam1_3v3_overcurrent_detected": false,
+    "cam1_sensor_busy_error": false,
+    "cam1_sensor_detection_error": false,
+    "sun_sensor_range_error": false,
+    "cam2_sram_overcurrent_detected": false,
+    "cam2_3v3_overcurrent_detected": false,
+    "cam2_sensor_busy_error": false,
+    "cam2_sensor_detection_error": false,
+    "nadir_sensor_range_error": false,
+    "rate_sensor_range_error": false,
+    "wheel_speed_range_error": false,
+    "coarse_sun_sensor_error": true,
+    "star_tracker_match_error": false,
+    "star_tracker_overcurrent_detected": false,
+    "orbit_parameters_are_invalid": false,
+    "configuration_is_invalid": false,
+    "control_mode_change_is_not_allowed": false,
+    "estimator_change_is_not_allowed": false,
+    "current_magnetometer_sampling_mode": "MainSignal",
+    "modelled_and_measured_magnetic_field_differs_in_size": false,
+    "node_recovery_error": false,
+    "cube_sense1_runtime_error": false,
+    "cube_sense2_runtime_error": false,
+    "cube_control_signal_runtime_error": false,
+    "cube_control_motor_runtime_error": false,
+    "cube_wheel1_runtime_error": false,
+    "cube_wheel2_runtime_error": false,
+    "cube_wheel3_runtime_error": false,
+    "cube_star_runtime_error": false,
+    "magnetometer_error": false,
+    "rate_sensor_failure": false,
+    "estimated_roll_angle": 4779,
+    "estimated_pitch_angle": -1936,
+    "estimated_yaw_angle": -617,
+    "estimated_q1": 4069,
+    "estimated_q2": -1319,
+    "estimated_q3": 194,
+    "estimated_x_angular_rate": -58,
+    "estimated_y_angular_rate": 134,
+    "estimated_z_angular_rate": -77,
+    "x_position": -18924,
+    "y_position": 9092,
+    "z_position": -17807,
+    "x_velocity": -15238,
+    "y_velocity": 13030,
+    "z_velocity": 22878,
+    "latitude": -4030,
+    "longitude": 16127,
+    "altitude": 28437,
+    "ecef_position_x": 0,
+    "ecef_position_y": 0,
+    "ecef_position_z": 0
+  }
+}
+
+isis-eps-terminal{   "PiuHk": {     "mode": "PIUEngHK"   },   "delay": 1000,   "loop": 3,}
+Delay: 1000 ms
+1/31{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-03-10 12:18:40
+isis-eps-terminal: {
+  "volt_brdsup": 3298,
+  "temp": 1160,
+  "vip_dist_input": {
+    "volt": 15758,
+    "curr": 160,
+    "pwr": 4100
+  },
+  "vip_batt_input": {
+    "volt": 15767,
+    "curr": -152,
+    "pwr": -4060
+  },
+  "stat_ch_on": 291,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1165,
+  "batt_temp3": 965,
+  "volt_vd0": 15758,
+  "volt_vd1": 4996,
+  "volt_vd2": 3298,
+  "vip_cnt_ch00": {
+    "volt": 15757,
+    "curr": 37,
+    "pwr": 1730
+  },
+  "vip_cnt_ch01": {
+    "volt": 4988,
+    "curr": 127,
+    "pwr": 1150
+  },
+  "vip_cnt_ch02": {
+    "volt": -22,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": 0,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch04": {
+    "volt": 365,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3338,
+    "curr": 61,
+    "pwr": 190
+  },
+  "vip_cnt_ch06": {
+    "volt": -182,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -192,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3333,
+    "curr": 170,
+    "pwr": 590
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -175,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -172,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -172,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": -146,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -9,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -30,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -180,
+    "curr": 0,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 377,
+    "curr": 0,
+    "pwr": 0
+  }
+}
+
+Delay: 1000 ms
+2/31{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-03-10 12:18:45
+isis-eps-terminal: {
+  "volt_brdsup": 3320,
+  "temp": 1240,
+  "vip_dist_input": {
+    "volt": 15763,
+    "curr": 158,
+    "pwr": 2150
+  },
+  "vip_batt_input": {
+    "volt": 15772,
+    "curr": -156,
+    "pwr": -2170
+  },
+  "stat_ch_on": 291,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1161,
+  "batt_temp3": 948,
+  "volt_vd0": 15763,
+  "volt_vd1": 4999,
+  "volt_vd2": 3320,
+  "vip_cnt_ch00": {
+    "volt": 15755,
+    "curr": 40,
+    "pwr": 660
+  },
+  "vip_cnt_ch01": {
+    "volt": 4991,
+    "curr": 130,
+    "pwr": 390
+  },
+  "vip_cnt_ch02": {
+    "volt": -24,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": -3,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch04": {
+    "volt": 220,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3337,
+    "curr": 57,
+    "pwr": 190
+  },
+  "vip_cnt_ch06": {
+    "volt": -181,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -193,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3332,
+    "curr": 182,
+    "pwr": 580
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -176,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -172,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -172,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": -145,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -9,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -31,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -181,
+    "curr": -1,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 378,
+    "curr": -1,
+    "pwr": 0
+  }
+}
+
+Delay: 1000 ms
+3/31{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-03-10 12:18:51
+isis-eps-terminal: {
+  "volt_brdsup": 3306,
+  "temp": 1400,
+  "vip_dist_input": {
+    "volt": 15696,
+    "curr": 263,
+    "pwr": 4670
+  },
+  "vip_batt_input": {
+    "volt": 15709,
+    "curr": -263,
+    "pwr": -4630
+  },
+  "stat_ch_on": 291,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1153,
+  "batt_temp3": 961,
+  "volt_vd0": 15696,
+  "volt_vd1": 5002,
+  "volt_vd2": 3306,
+  "vip_cnt_ch00": {
+    "volt": 15686,
+    "curr": 184,
+    "pwr": 3050
+  },
+  "vip_cnt_ch01": {
+    "volt": 5005,
+    "curr": 1,
+    "pwr": 470
+  },
+  "vip_cnt_ch02": {
+    "volt": -24,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": -4,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch04": {
+    "volt": 532,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3339,
+    "curr": 63,
+    "pwr": 190
+  },
+  "vip_cnt_ch06": {
+    "volt": -182,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -193,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3334,
+    "curr": 172,
+    "pwr": 570
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -175,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -172,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -171,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": -147,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -11,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -30,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -180,
+    "curr": -1,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 378,
+    "curr": 0,
+    "pwr": 0
+  }
+}
+

@@ -1,0 +1,6 @@
+2025-03-10 12:16:07,079 - Started isis-ground with PID: 1488507
+2025-03-10 12:16:07,080 - Started gs-autorun with PID: 1488508
+2025-03-10 12:24:07,163 - gs-autorun completed successfully.
+2025-03-10 12:24:07,165 - Started file-client instance 1 with PID: 1488789
+2025-03-10 12:25:37,254 - Terminated file-client instance 1 with PID: 1488789 after 1 minute
+2025-03-10 12:25:37,254 - Terminated all processes.

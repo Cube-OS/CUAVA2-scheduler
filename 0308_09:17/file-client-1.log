@@ -1,0 +1,3 @@
+12:59:06 [0m[34m[INFO] [0mStarting file transfer client
+12:59:06 [0m[34m[INFO] [0mDownloading remote to local: ./download/
+12:59:06 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { ReqTransmit { channel_id: 961953, path: None } }

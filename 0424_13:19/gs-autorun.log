@@ -1,0 +1,184 @@
+eps-ground-watchdog{   "KickWatchdog": {}}
+1/11{   "KickWatchdog": {}}
+2{   "KickWatchdog": {}}
+3{   "KickWatchdog": {}}
+4{   "KickWatchdog": {}}
+5{   "KickWatchdog": {}}
+6{   "KickWatchdog": {}}
+7{   "KickWatchdog": {}}
+8{   "KickWatchdog": {}}
+9{   "KickWatchdog": {}}
+10{   "KickWatchdog": {}}
+11{   "KickWatchdog": {}}
+12{   "KickWatchdog": {}}
+13{   "KickWatchdog": {}}
+14{   "KickWatchdog": {}}
+15{   "KickWatchdog": {}}
+16{   "KickWatchdog": {}}
+17{   "KickWatchdog": {}}
+18{   "KickWatchdog": {}}
+19{   "KickWatchdog": {}}
+20{   "KickWatchdog": {}}
+21{   "KickWatchdog": {}}
+2025-04-24 13:21:47
+eps-ground-watchdog: "Success"
+
+eps-ground-watchdog{   "GetTimeRemaining": {}}
+1/11{   "GetTimeRemaining": {}}
+2025-04-24 13:21:49
+eps-ground-watchdog: "172799"
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-04-24 13:21:49
+cubeadcs-terminal: invalid value: integer `172799`, expected variant index 0 <= i < 130
+
+isis-eps-terminal{   "PiuHk": {     "mode": "PIUEngHK"   }}
+1/11{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2{   "PiuHk": {     "mode": "PIUEngHK"   }}
+2025-04-24 13:21:54
+isis-eps-terminal: {
+  "volt_brdsup": 3304,
+  "temp": 1240,
+  "vip_dist_input": {
+    "volt": 15559,
+    "curr": 335,
+    "pwr": 5200
+  },
+  "vip_batt_input": {
+    "volt": 15578,
+    "curr": -337,
+    "pwr": -5280
+  },
+  "stat_ch_on": 299,
+  "stat_ch_ocf": 0,
+  "batt_stat": 32768,
+  "batt_temp2": 1015,
+  "batt_temp3": 994,
+  "volt_vd0": 15559,
+  "volt_vd1": 4993,
+  "volt_vd2": 3304,
+  "vip_cnt_ch00": {
+    "volt": 15558,
+    "curr": 54,
+    "pwr": 1400
+  },
+  "vip_cnt_ch01": {
+    "volt": 4977,
+    "curr": 347,
+    "pwr": 1280
+  },
+  "vip_cnt_ch02": {
+    "volt": -22,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch03": {
+    "volt": 4982,
+    "curr": 260,
+    "pwr": 1290
+  },
+  "vip_cnt_ch04": {
+    "volt": 305,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch05": {
+    "volt": 3341,
+    "curr": 53,
+    "pwr": 150
+  },
+  "vip_cnt_ch06": {
+    "volt": -182,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch07": {
+    "volt": -194,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch08": {
+    "volt": 3333,
+    "curr": 162,
+    "pwr": 580
+  },
+  "ccd1": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd2": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd3": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "vip_cnt_ch09": {
+    "volt": -175,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch10": {
+    "volt": -174,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch11": {
+    "volt": -174,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch12": {
+    "volt": -117,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch13": {
+    "volt": -11,
+    "curr": 0,
+    "pwr": 0
+  },
+  "vip_cnt_ch14": {
+    "volt": -30,
+    "curr": -1,
+    "pwr": 0
+  },
+  "vip_cnt_ch15": {
+    "volt": -181,
+    "curr": 0,
+    "pwr": 0
+  },
+  "ccd4": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "ccd5": {
+    "volt_in_mppt": 0,
+    "curr_in_mppt": 0,
+    "volt_out_mppt": 0,
+    "curr_out_mppt": 0
+  },
+  "stat_ch_ext_on": 0,
+  "stat_ch_ext_ocf": 0,
+  "vip_cnt_ch16": {
+    "volt": 378,
+    "curr": 0,
+    "pwr": 0
+  }
+}
+
+cubeadcs-terminal{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+1/11{   "GetTelemetry": {     "telem_type": "AdcsStateAll"   }}
+2025-04-24 13:21:57
+cubeadcs-terminal: invalid value: integer `6616`, expected variant index 0 <= i < 130
+

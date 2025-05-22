@@ -1,0 +1,56 @@
+12:38:55 [0m[34m[INFO] [0mStarting file transfer client
+12:38:55 [0m[34m[INFO] [0mDownloading remote to local: ./download/
+12:38:55 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { ReqTransmit { channel_id: 145049, path: None } }
+12:38:58 [0m[34m[INFO] [0mSuccessTransmit: 145049 ls_output.json f7c000a89d95c9d9306d437442de10fd 32 Some(33188) false
+12:38:59 [0m[34m[INFO] [0mSuccessTransmit: 145049 ls_output.json f7c000a89d95c9d9306d437442de10fd 32 Some(33188) false
+12:38:59 [0m[34m[INFO] [0mSuccessTransmit: 145049 dandelions.txt 90fc6a0bfb56723daeaaec7f1a3d1ce3 19 Some(33188) true
+12:38:59 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { SuccessTransmit { channel_id: 145049, file_name: "ls_output.json", hash: "f7c000a89d95c9d9306d437442de10fd", num_chunks: 32, mode: Some(33188), last: false } }
+12:38:59 [0m[34m[INFO] [0m<- { 145049, true, f7c000a89d95c9d9306d437442de10fd, 32, 33188 }
+12:38:59 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: -> { NAK { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", missing_chunks: Some([0, 32]) } }
+12:38:59 [0m[34m[INFO] [0mStart receiving file: ls_output.json
+12:39:03 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 0 } }
+12:39:04 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 0 } }
+12:39:06 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 1 } }
+12:39:08 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 1 } }
+12:39:10 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 2 } }
+12:39:13 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 3 } }
+12:39:15 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 3 } }
+12:39:17 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 4 } }
+12:39:19 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 4 } }
+12:39:20 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 5 } }
+12:39:22 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 5 } }
+12:39:24 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 6 } }
+12:39:26 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 6 } }
+12:39:27 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 7 } }
+12:39:29 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 7 } }
+12:39:31 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 8 } }
+12:39:33 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 8 } }
+12:39:34 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 9 } }
+12:39:36 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 9 } }
+12:39:38 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 10 } }
+12:39:40 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 10 } }
+12:39:42 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 11 } }
+12:39:43 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 11 } }
+12:39:45 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 12 } }
+12:39:47 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 12 } }
+12:39:49 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 13 } }
+12:39:50 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 13 } }
+12:39:52 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 14 } }
+12:39:54 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 14 } }
+12:39:56 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 15 } }
+12:39:57 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 15 } }
+12:39:59 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 16 } }
+12:40:01 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 16 } }
+12:40:03 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 17 } }
+12:40:04 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 17 } }
+12:40:06 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 18 } }
+12:40:08 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 18 } }
+12:40:10 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 19 } }
+12:40:12 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 19 } }
+12:40:13 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 20 } }
+12:40:15 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 20 } }
+12:40:17 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 21 } }
+12:40:19 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 21 } }
+12:40:20 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 22 } }
+12:40:22 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 22 } }
+12:40:24 [0m[36m[DEBUG] [0m(1) file_protocol::protocol: <- { ReceiveChunk { channel_id: 145049, hash: "f7c000a89d95c9d9306d437442de10fd", chunk_num: 23 } }

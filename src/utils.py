@@ -30,9 +30,9 @@ def predict_next_pass(tle_lines):
     ts = load.timescale()
     now = ts.utc(datetime.utcnow().replace(tzinfo=pytz.utc))
     t0 = now
-    t1 = ts.utc((datetime.utcnow() + timedelta(hours=12)).replace(tzinfo=pytz.utc))
+    t1 = ts.utc((datetime.utcnow() + timedelta(hours=14)).replace(tzinfo=pytz.utc))
 
-    times, events = satellite.find_events(ground_station, t0, t1, altitude_degrees=10.0)
+    times, events = satellite.find_events(ground_station, t0, t1, altitude_degrees=20.0)
 
     if len(events) == 0:
         raise RuntimeError("No passes found in the next 12 hours")
