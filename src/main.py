@@ -33,11 +33,6 @@ def kill_process_and_children(pid):
         parent.kill()
     except psutil.NoSuchProcess:
         pass
-<<<<<<< HEAD
-
-def main():
-=======
->>>>>>> 6d443afb5263ad63fcf1622ac36716a2369ebd9b
 
 def main():
     # # Determine the script's directory
